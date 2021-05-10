@@ -7,19 +7,20 @@ background-color: white;}
 height: 100px;
 width: 100%; 
 display:flex; justify-content: space-between;
- position: fixed;}
+ position: relative;}
 
 .menu{ color: #D96F66 ; 
     font-size: 30px ; 
     font-family: 'Poppins', sans-serif;
     margin: auto;
     text-decoration: none; }
-.produtos1{ width: 100vw; 
+
+.linha1{ width: 100vw; 
 height: 80vh;
 background-color: #BC85F2; 
 border-bottom: 6px #7941F2 dotted;
 padding-top: 120px;
-display: flex; justify-content: space-between;}
+display: flex; }
 .produto1{background-color: white;
 height: 60vh;
 width: 20vw; margin: auto;}
@@ -29,17 +30,41 @@ width: 20vw; margin: auto;}
 .produto3{background-color: white;
         height: 60vh;
         width: 20vw; margin: auto;}
+
+
     
-
-
-.produtos2{ width: 100vw; 
+.linha2{ width: 100vw; 
     height: 80vh;
     background-color: #BC85F2; 
-    border-bottom: 6px #7941F2 dotted; }
-.produtos3{ width: 100vw; 
+    border-bottom: 6px #7941F2 dotted; display: flex; }
+
+.produto4{background-color: white;
+        height: 60vh;
+        width: 20vw; margin: auto;}
+.produto5{background-color: white;
+            height: 60vh;
+            width: 20vw; margin: auto;}
+.produto6{background-color: white;
+                height: 60vh;
+                width: 20vw; margin: auto;}  
+                
+                
+.linha3{ width: 100vw; 
     height: 80vh;
     background-color: #BC85F2; 
-    border-bottom: 6px #7941F2 dotted; }
+    border-bottom: 6px #7941F2 dotted; display: flex; }
+.produto7{background-color: white;
+        height: 60vh;
+        width: 20vw; margin: auto;}
+.produto8{background-color: white;
+            height: 60vh;
+            width: 20vw; margin: auto;}
+.produto9{background-color: white;
+                height: 60vh;
+                width: 20vw; margin: auto;}
+.preço-pdts{ text-align: center; color: black;font-size: 20px ; 
+    font-family: 'Poppins', sans-serif; font-weight: bold;} 
+
 
     
 
