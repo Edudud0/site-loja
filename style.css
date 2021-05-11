@@ -7,13 +7,25 @@ background-color: white;}
 height: 100px;
 width: 100%; 
 display:flex; justify-content: space-between;
- position: relative;}
+ position: fixed;}
 
 .menu{ color: #D96F66 ; 
     font-size: 30px ; 
     font-family: 'Poppins', sans-serif;
     margin: auto;
-    text-decoration: none; }
+    text-decoration: none; font-weight: bold; }
+.caixalog{background-color: #B1BF41;
+    height: 50vh;
+    width: 40vw; 
+    border-radius: 10px;
+    display:flex; margin: auto; }
+
+.form{color: black ; 
+    font-size: 20px ; 
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    text-decoration: none; font-weight: bold; }
+.botão{ display: block; margin: auto;}
 
 .linha1{ width: 100vw; 
 height: 80vh;
