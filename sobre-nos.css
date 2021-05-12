@@ -1,0 +1,26 @@
+body{ padding: 0;
+    border: 0;
+    margin: 0;
+    background-image: url(/img/imagem-fundo.png.png);}
+.cabeçalho{ background-color: #B1BF41;
+height: 100px;
+width: 100%; 
+display:flex; justify-content: space-between;
+position: fixed;}
+    
+.menu{ color: #D96F66 ; 
+font-size: 30px ; 
+font-family: 'Poppins', sans-serif;
+margin: auto;
+text-decoration: none; font-weight: bold; }
+
+.linha1{ width: 100vw; 
+    height: 80vh;
+    border-bottom: 6px #7941F2 dotted;
+    padding-top: 120px;
+    display: flex; }
+
+.linha2{ width: 100vw; 
+        height: 80vh; 
+        border-bottom: 6px #7941F2 dotted; display: flex; }
+    

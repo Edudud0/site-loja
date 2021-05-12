@@ -1,7 +1,8 @@
 body{ padding: 0;
 border: 0;
 margin: 0;
-background-color: white;}
+background-image: url(/img/imagem-fundo.png.png);
+text-decoration: none;}
 
 .cabeçalho{ background-color: #B1BF41;
 height: 100px;
@@ -14,25 +15,12 @@ display:flex; justify-content: space-between;
     font-family: 'Poppins', sans-serif;
     margin: auto;
     text-decoration: none; font-weight: bold; }
-.caixalog{background-color: #B1BF41;
-    height: 50vh;
-    width: 40vw; 
-    border-radius: 10px;
-    display:flex; margin: auto; }
-
-.form{color: black ; 
-    font-size: 20px ; 
-    font-family: 'Poppins', sans-serif;
-    margin: auto;
-    text-decoration: none; font-weight: bold; }
-.botão{ display: block; margin: auto;}
 
 .linha1{ width: 100vw; 
-height: 80vh;
-background-color: #BC85F2; 
+height: 80vh; 
 border-bottom: 6px #7941F2 dotted;
 padding-top: 120px;
-display: flex; }
+display: flex; text-align: center; }
 .produto1{background-color: white;
 height: 60vh;
 width: 20vw; margin: auto;}
@@ -46,9 +34,8 @@ width: 20vw; margin: auto;}
 
     
 .linha2{ width: 100vw; 
-    height: 80vh;
-    background-color: #BC85F2; 
-    border-bottom: 6px #7941F2 dotted; display: flex; }
+    height: 80vh; 
+    border-bottom: 6px #7941F2 dotted; display: flex; text-align: center; }
 
 .produto4{background-color: white;
         height: 60vh;
@@ -62,10 +49,10 @@ width: 20vw; margin: auto;}
                 
                 
 .linha3{ width: 100vw; 
-    height: 80vh;
-    background-color: #BC85F2; 
-    border-bottom: 6px #7941F2 dotted; display: flex; }
-.produto7{background-color: white;
+    height: 80vh; 
+    border-bottom: 6px #7941F2 dotted; display: flex; text-align: center;}
+
+    .produto7{background-color: white;
         height: 60vh;
         width: 20vw; margin: auto;}
 .produto8{background-color: white;
@@ -74,8 +61,11 @@ width: 20vw; margin: auto;}
 .produto9{background-color: white;
                 height: 60vh;
                 width: 20vw; margin: auto;}
-.preço-pdts{ text-align: center; color: black;font-size: 20px ; 
-    font-family: 'Poppins', sans-serif; font-weight: bold;} 
+.preço-pdts{ 
+    color: black;
+    font-size: 22px ; 
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold; text-decoration: none; } 
 
 
     
